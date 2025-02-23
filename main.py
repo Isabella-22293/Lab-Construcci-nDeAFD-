@@ -6,7 +6,6 @@ from nfa_simulation import simulate_nfa
 from visual_automata import visualize_dfa, visualize_nfa
 
 def main():
-    # Ejemplo de flujo 
     regex_infix = "a|(b*ab)"  # Expresión regular en notación infix
     # Convertir infix a postfix
     regex_postfix = infix_to_postfix(regex_infix)
